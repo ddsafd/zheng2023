@@ -1,0 +1,5 @@
+# 项目排除路径
+/target/
+/vue/dist/
+/vue/dist/js/
+/vue/node_modules/
