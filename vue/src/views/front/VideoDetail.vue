@@ -167,7 +167,12 @@ export default {
   methods: {
     collect() {
       if (this.user.username == null) {
-        this.$message.warning("请登录")
+        this.$message({
+  message: '请登录',
+  type: 'warning',
+  duration: 500  // 设置为1.5秒
+});
+
         return;
       }
 
@@ -199,7 +204,12 @@ export default {
     },
     reply(pid, target) {
       if (this.user.username == null) {
-        this.$message.warning("请登录")
+        this.$message({
+  message: '请登录',
+  type: 'warning',
+  duration: 500  // 设置为1.5秒
+});
+
         return;
       }
       this.replyComment = {pid: pid, userId: this.user.id, foreignId: this.id}
@@ -216,7 +226,12 @@ export default {
     },
     saveReply() {
       if (this.user.username == null) {
-        this.$message.warning("请登录")
+        this.$message({
+  message: '请登录',
+  type: 'warning',
+  duration: 500  // 设置为1.5秒
+});
+
         return;
       }
       this.replyComment.videoId = this.id;
@@ -233,7 +248,12 @@ export default {
     },
     submit2() {
       if (this.user.username == null) {
-        this.$message.warning("请登录")
+        this.$message({
+  message: '请登录',
+  type: 'warning',
+  duration: 500  // 设置为1.5秒
+});
+
         return;
       }
       if (this.comment.content === '') {

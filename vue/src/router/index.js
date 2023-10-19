@@ -1,10 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from "@/store";
-
+import Message from '@/components/Message.vue'
 Vue.use(VueRouter)
 
 const routes = [
+    {
+        path: '/',
+        redirect: '/front/home'
+    },
+
     {
         path: '/login',
         name: 'Login',
@@ -104,6 +109,11 @@ const routes = [
                 path: '/reset-password',
                 name: 'ResetPassword',
                 component: () => import('@/views/ResetPassword.vue')
+            },
+            {
+                path: '/message',
+                name: 'Message',
+                component: Message
             }
 
         ]

@@ -46,7 +46,12 @@ export default {
   },
   created() {
     if (this.user.username == null) {
-      this.$message.warning("请登录")
+      this.$message({
+  message: '请登录',
+  type: 'warning',
+  duration: 500  // 设置为1.5秒
+});
+
       return;
     }
 

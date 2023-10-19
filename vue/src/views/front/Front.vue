@@ -19,8 +19,12 @@
           <el-menu-item index="/front/myVideoCollect">我的视频收藏</el-menu-item>
           <el-menu-item index="/front/type">试题</el-menu-item>
           <el-menu-item index="/front/blog">论坛</el-menu-item>
-          <el-menu-item index="/front/addBlog">论坛发布</el-menu-item>
-          <el-menu-item index="/front/person">个人中心</el-menu-item>
+
+          <el-menu-item v-if="user.username" index="/front/addBlog">论坛发布</el-menu-item>
+          <el-menu-item index="/message">留言咨询</el-menu-item>
+
+          <el-menu-item v-if="user.username" index="/front/person">个人中心</el-menu-item>
+
         </el-menu>
       </div>
       <div style="width: 200px; text-align: right; padding-right: 10px">
