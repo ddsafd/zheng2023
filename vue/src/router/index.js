@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from "@/store";
-import Message from '@/components/Message.vue'
+import Message from '@/views/front/Message.vue'
 Vue.use(VueRouter)
 
 const routes = [

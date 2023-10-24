@@ -49,12 +49,6 @@ k
 ;src/main/java/com/example/springboot/mapper/FileMapper.java,7\2\7288ab8da061fc34eec836763e06d67237ad2c93
 r
 Bsrc/main/java/com/example/springboot/config/MybatisPlusConfig.java,b\b\bbe9c89e58a0f3a0c7a5dcf6a1f910f60881325a
-v
-Fsrc/main/java/com/example/springboot/controller/CommentController.java,a\9\a9d8e2991e21701f9992b3e7a817971b7a3c6d92
-H
-vue/src/views/Manage.vue,9\5\9522590e72a21bea05b7e74669ca028de69e2edd
-v
-Fsrc/main/java/com/example/springboot/controller/CollectController.java,f\e\fe8012211057bb0f60916670b1b427321c7d4270
 ?
 vue/src/App.vue,7\7\77f4269894f49f68795ebe3a1fb37dfda3ffdb3e
 7
@@ -71,30 +65,16 @@ C
 vue/src/main.js,4\6\4632e83dd13cd44590e19ca99ce734a59c1961a9
 M
 vue/src/views/front/Front.vue,9\2\922ef9ea5ea75ff467e0fc25b64bf0dbc2b3b8b2
-G
-vue/src/router/index.js,e\2\e23c1140168187b25d5bad9b5077540195132bba
 Q
 !vue/src/views/front/MyCollect.vue,f\1\f1d6a20fcadd14f8d5de769ecb8cabb7d77a13f6
 S
 #vue/src/views/front/VideoDetail.vue,3\9\3906316d78e6b46c0b872443fa48252e4d0dd8c2
 U
 %vue/src/views/front/ArticleDetail.vue,e\d\ed4a3dc4d81b9df4ea3fa1201c233464e2e3ae23
-h
-8src/main/java/com/example/springboot/entity/Message.java,0\2\02c2348c787727ded7ddb083433dfcdae2ebd4e1
-y
-Isrc/main/java/com/example/springboot/service/impl/MessageServiceImpl.java,5\6\568f4ee0a9a4d014114ba3f545f2ff97f27e66af
-v
-Fsrc/main/java/com/example/springboot/controller/MessageController.java,e\1\e19379e9dc392db480fc65516d61f7f96f7c5ecf
-n
->src/main/java/com/example/springboot/mapper/MessageMapper.java,b\7\b79bf388a4fd553dc39e0732f03a1dcd31f51676
-q
-Asrc/main/java/com/example/springboot/service/IMessageService.java,c\1\c1cdb8dd9a46d699daa45df8113de0cb6802c8b7
 O
 vue/src/views/front/AddBlog.vue,0\6\0629a110ecbc8a301dafef1c5d804fda9a25047f
 V
 &vue/src/views/front/MyVideoCollect.vue,d\b\db9838a8b6cf98549a8cd3250e0e633f153ad25f
-N
-vue/src/components/Message.vue,f\a\facff7d6a070ac708b8dede9028dddf3b6fae22a
 M
 vue/src/components/Header.vue,9\8\9862ab9249883906696001b18df183bd8876651c
 R
